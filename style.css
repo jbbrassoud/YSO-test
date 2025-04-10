@@ -181,7 +181,7 @@ p {
 }
 
 #bloc-game {
-  background-color: #0C59FE;
+  background-color: #2C2D2A;
 }
 #bloc-game .ytb-video {
   width: 46em;
@@ -247,11 +247,21 @@ p {
   transition: all 0.5s ease;
 }
 
+.stretch-guy {
+  width: 10000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  scale: 5;
+  filter: drop-shadow(0em 0em 1em rgba(0, 6, 63, 0.439));
+}
+
 footer {
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: #000;
+  background-color: #0C59FE;
   padding: 2em;
   text-align: center;
   align-items: center;
