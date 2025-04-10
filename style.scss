@@ -99,6 +99,7 @@
     h2{
       color: aliceblue;
       text-shadow:0em 0em 0.3em rgba(0, 6, 63, 0.439);
+      margin: 0 0 1em 0; 
     }
     span{
       display: flex;
@@ -122,6 +123,7 @@
       z-index:2;
       
     }
+    
     .buttons-list{
       display: flex;
       flex-direction: column;
@@ -163,6 +165,13 @@
       }
     }
   }
+  #bloc-download{
+    
+    padding: 1.5em;
+    background-color: rgba(228, 228, 228, 0.532); /* Semi-opaque background */
+    backdrop-filter: blur(5em); /* Apply blur effect */
+    border-radius: 1em; /* Optional: Add rounded corners */
+  }
   #b1{
     background-color: #00a173;
   }
@@ -180,7 +189,8 @@
     align-items: center;
   }
   #bloc-game{
-    background-color: #0C59FE;
+  background-color: #2C2D2A;
+
     .ytb-video{
       width: 46em;
       height: 26em;
@@ -264,7 +274,7 @@
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: #000;
+    background-color: #0C59FE;
     padding: 2em;
     text-align: center;
     align-items: center;

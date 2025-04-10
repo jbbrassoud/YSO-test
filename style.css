@@ -99,6 +99,7 @@ p {
 #bloc-home h2 {
   color: aliceblue;
   text-shadow: 0em 0em 0.3em rgba(0, 6, 63, 0.439);
+  margin: 0 0 1em 0;
 }
 #bloc-home span {
   display: flex;
@@ -158,6 +159,14 @@ p {
   color: #000;
   background-color: white;
   box-shadow: 0 0 2em rgba(255, 255, 255, 0.495);
+}
+
+#bloc-download {
+  padding: 1.5em;
+  background-color: rgba(228, 228, 228, 0.532); /* Semi-opaque background */
+  -webkit-backdrop-filter: blur(5em);
+          backdrop-filter: blur(5em); /* Apply blur effect */
+  border-radius: 1em; /* Optional: Add rounded corners */
 }
 
 #b1 {
