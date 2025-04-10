@@ -290,6 +290,15 @@ footer a {
   #bloc-home h2 {
     font-size: 2em;
   }
+  #bloc-home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #bloc-home .ytb-video {
+    width: 100%;
+    height: 20em;
+  }
   #bloc-game {
     flex-direction: column;
     align-items: center;
